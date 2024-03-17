@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern" : [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "examplemod:pepeha"
+    }
+  },
+  "result": {
+    "item": "examplemod:pepeha_block"
+  }
+}

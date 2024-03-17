@@ -1,0 +1,13 @@
+{
+  "item.examplemod.sapphire" : "Сапфир",
+  "item.examplemod.pumpkin" : "Ужасная Тыква",
+  "item.examplemod.candy_from_santa" : "Конфета от Дедушки Мороза",
+  "item.examplemod.pine_cone" : "Шишка",
+  "block.examplemod.sapphire_block" : "Полированный сапфировый блок",
+  "block.examplemod.raw_sapphire_block" : "Сапфировая руда блок",
+  "block.examplemod.pepeha_block" : "Пепехин блок",
+  "item.examplemod.pepeha" : "Пепеха",
+  "item.examplemod.metall_detector" : "Метало-Искатель",
+  "block.examplemod.sound_block" : "Блок звука",
+  "block.examplemod.firework" : "Фейерверк"
+}
