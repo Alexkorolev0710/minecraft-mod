@@ -22,7 +22,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.SAPPHIRE);
         simpleItem(ModItems.RAW_SAPPHIRE);
-
+        simpleItem(ModItems.SEA_CORAL);
         simpleItem(ModItems.PINE_CONE);
 
         simpleBlockItem(ModBlocks.SAPPHIRE_DOOR);

@@ -4,6 +4,12 @@
 Написать идею мода:
 Мод, расширяющий возможности морского путешествия, включая новые виды кораблей, подводное снаряжение и локации.
 Ресурсы:
+    морской коралл  sea coral
+    modItems - добавить блок
+    modCreativeModTabs
+    datagen/modItemModelProvider
+    resources/assetland/ -перевод
+    resources/asset/item/teture-текстура
 
 Вещи:
 Ром

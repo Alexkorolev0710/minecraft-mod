@@ -15,6 +15,15 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ExampleMod.MOD_ID);
 
+    public static final RegistryObject<CreativeModeTab> SEA_VOYAGES_TAB = CREATIVE_MODE_TABS.register("sea_voyages_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SEA_CORAL.get()))
+                    .title(Component.translatable("creativetab.sea_voyages_tab"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.SEA_CORAL.get());
+
+                    })
+                    .build());
+
     public static final RegistryObject<CreativeModeTab> EXAMPLEMOD_TAB = CREATIVE_MODE_TABS.register("examplemod_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.examplemod_tab"))
