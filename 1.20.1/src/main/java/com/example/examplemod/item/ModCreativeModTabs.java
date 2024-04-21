@@ -20,6 +20,7 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.sea_voyages_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SEA_CORAL.get());
+                        pOutput.accept(ModBlocks.SEA_CORAL_BLOCK.get());
 
                     })
                     .build());

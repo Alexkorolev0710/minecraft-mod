@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern" : [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "examplemod:sea_coral"
+    }
+  },
+  "result": {
+    "item": "examplemod:sea_coral_block"
+  }
+}
