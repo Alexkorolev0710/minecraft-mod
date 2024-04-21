@@ -4,7 +4,7 @@ import com.example.examplemod.ExampleMod;
 import com.example.examplemod.item.custom.FuelItem;
 import com.example.examplemod.item.custom.MetalDetectorItem;
 import com.example.examplemod.item.custom.ModFoods;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -34,25 +34,25 @@ public class ModItems {
     public static final RegistryObject<Item> PINE_CONE= ITEMS.register("pine_cone",
             () -> new FuelItem(new Item.Properties(),400));
             
-    public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
+    public static final RegistryObject<Item> CORAL_SWORD = ITEMS.register("coral_sword",
             () -> new SwordItem(ModToolTiers.SAPPHIRE, 4, 2, new Item.Properties()));
-    public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
+    public static final RegistryObject<Item> CORAL_PICKAXE = ITEMS.register("coral_pickaxe",
             () -> new PickaxeItem(ModToolTiers.SAPPHIRE, 1, 1, new Item.Properties()));
-    public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",
+    public static final RegistryObject<Item> CORAL_AXE = ITEMS.register("coral_axe",
             () -> new AxeItem(ModToolTiers.SAPPHIRE, 7, 1, new Item.Properties()));
-    public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel",
+    public static final RegistryObject<Item> CORAL_SHOVEL = ITEMS.register("coral_shovel",
             () -> new ShovelItem(ModToolTiers.SAPPHIRE, 0, 0, new Item.Properties()));
-    public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
+    public static final RegistryObject<Item> CORAL_HOE = ITEMS.register("coral_hoe",
             () -> new HoeItem(ModToolTiers.SAPPHIRE, 0, 0, new Item.Properties()));
 
-    public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-    public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
-    public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> CORAL_HELMET = ITEMS.register("coral_helmet",
+            () -> new ArmorItem(ModArmorMaterials.SEA_CORAL, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> CORAL_CHESTPLATE = ITEMS.register("coral_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.SEA_CORAL, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> CORAL_LEGGINGS = ITEMS.register("coral_leggings",
+            () -> new ArmorItem(ModArmorMaterials.SEA_CORAL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> CORAL_BOOTS = ITEMS.register("coral_boots",
+            () -> new ArmorItem(ModArmorMaterials.SEA_CORAL, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

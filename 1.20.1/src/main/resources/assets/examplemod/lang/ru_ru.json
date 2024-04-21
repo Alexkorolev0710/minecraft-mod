@@ -11,5 +11,10 @@
   "block.examplemod.sound_block" : "Блок звука",
   "block.examplemod.firework" : "Фейерверк",
   "item.examplemod.sea_coral" : "Морской корал",
-  "block.examplemod.sea_coral_block" : "Блок коралла"
+  "block.examplemod.sea_coral_block" : "Блок коралла",
+  "item.examplemod.coral_sword" : "Коралловый меч",
+  "item.examplemod.coral_pickaxe" : "Коралловая кирка",
+  "item.examplemod.coral_axe" : "Коралловый топор",
+  "item.examplemod.coral_shovel" : "Коралловая лопата",
+  "item.examplemod.coral_hoe" : "Коралловая мотыга"
 }
