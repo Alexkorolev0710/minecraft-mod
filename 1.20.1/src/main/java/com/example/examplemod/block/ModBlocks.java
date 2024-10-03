@@ -3,6 +3,7 @@ package com.example.examplemod.block;
 import com.example.examplemod.ExampleMod;
 import com.example.examplemod.block.custom.FireworkBlock;
 import com.example.examplemod.block.custom.SoundBlock;
+import com.example.examplemod.block.custom.wheatushCropBlock;
 import com.example.examplemod.item.ModItems;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -32,6 +33,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAW_SAPPHIRE_BLOCK = registerBlock("raw_sapphire_block",
 
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> WHEATUSH_CROP_BLOCK = registerBlock("wheatush_crop_block",
+
+            () -> new wheatushCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().noOcclusion()));
     public static final RegistryObject<Block> PEPEHA_BLOCK = registerBlock("pepeha_block",
 
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.ANVIL)));

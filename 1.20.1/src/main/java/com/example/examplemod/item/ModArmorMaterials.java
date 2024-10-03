@@ -1,12 +1,14 @@
 package com.example.examplemod.item;
 
+import com.example.examplemod.ExampleMod;
 import com.example.examplemod.item.ModItems;
-import net.kaupenjoe.tutorialmod.TutorialMod;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
+
+
 
 import java.util.function.Supplier;
 
@@ -64,7 +66,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return TutorialMod.MOD_ID + ":" + this.name;
+        return ExampleMod.MOD_ID + ":" + this.name;
     }
 
     @Override

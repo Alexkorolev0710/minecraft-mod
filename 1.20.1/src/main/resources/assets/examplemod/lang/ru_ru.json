@@ -16,5 +16,9 @@
   "item.examplemod.coral_pickaxe" : "Коралловая кирка",
   "item.examplemod.coral_axe" : "Коралловый топор",
   "item.examplemod.coral_shovel" : "Коралловая лопата",
-  "item.examplemod.coral_hoe" : "Коралловая мотыга"
+  "item.examplemod.coral_hoe" : "Коралловая мотыга",
+  "item.examplemod.coral_helmet" : "Коралловый шлем",
+  "item.examplemod.coral_chestplate" : "Коралловый нагрудник",
+  "item.examplemod.coral_leggings" : "Коралловые штаны",
+  "item.examplemod.coral_boots" : "Коралловая ботинки",
 }

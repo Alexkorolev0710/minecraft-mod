@@ -21,6 +21,15 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SEA_CORAL.get());
                         pOutput.accept(ModBlocks.SEA_CORAL_BLOCK.get());
+                        pOutput.accept(ModItems.CORAL_AXE.get());
+                        pOutput.accept(ModItems.CORAL_PICKAXE.get());
+                        pOutput.accept(ModItems.CORAL_SHOVEL.get());
+                        pOutput.accept(ModItems.CORAL_SWORD.get());
+                        pOutput.accept(ModItems.CORAL_HOE.get());
+                        pOutput.accept(ModItems.CORAL_HELMET.get());
+                        pOutput.accept(ModItems.CORAL_CHESTPLATE.get());
+                        pOutput.accept(ModItems.CORAL_LEGGINGS.get());
+                        pOutput.accept(ModItems.CORAL_BOOTS.get());
 
                     })
                     .build());
@@ -36,7 +45,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.PEPEHA.get());
                         pOutput.accept(ModItems.CANDY_FROM_SANTA.get());
                         pOutput.accept(ModItems.PINE_CONE.get());
-                        pOutput.accept(ModItems.SAPPHIRE_AXE.get());
+                        //pOutput.accept(ModItems.SAPPHIRE_AXE.get());
 
                         pOutput.accept(Items.DIAMOND);
 
