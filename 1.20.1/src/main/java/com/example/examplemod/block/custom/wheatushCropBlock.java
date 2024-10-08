@@ -10,8 +10,8 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
 public class wheatushCropBlock extends CropBlock {
-    public static final int MAX_AGE = 5;
-    public static final IntegerProperty AGE = BlockStateProperties.AGE_5;
+    public static final int MAX_AGE = 7;
+    public static final IntegerProperty AGE = BlockStateProperties.AGE_7;
     public wheatushCropBlock(Properties pProperties) {
         super(pProperties);
     }
@@ -21,7 +21,7 @@ public class wheatushCropBlock extends CropBlock {
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return ModItems.STRAWBERRY_SEEDS.get();
+        return ModItems.WHEATUSH_CROP_BLOCK_SEEDS.get();
     }
 
     @Override

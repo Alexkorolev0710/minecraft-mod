@@ -30,6 +30,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.CORAL_CHESTPLATE.get());
                         pOutput.accept(ModItems.CORAL_LEGGINGS.get());
                         pOutput.accept(ModItems.CORAL_BOOTS.get());
+                        pOutput.accept(ModItems.WHEATUSH_CROP_BLOCK_SEEDS.get());
 
                     })
                     .build());
